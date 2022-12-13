@@ -1,0 +1,19 @@
+.Image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    margin: 15px;
+    background-color: rgb(113, 189, 0);
+}
+
+.Image > span {
+    font-size: 20px;
+}
+
+.Image > img {
+    margin: 10px auto;
+    width: 385px;
+    height: auto;
+}
